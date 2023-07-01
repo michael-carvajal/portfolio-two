@@ -1,0 +1,19 @@
+.about-me{
+    min-height: fit-content;
+}
+.about-me p {
+    text-align: left;
+}
+.svg-container{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: fit-content;
+        margin: 0px auto;
+        border-radius: 5px;
+    }
+.svg-container svg{
+    width: 40%;
+}
