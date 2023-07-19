@@ -18,3 +18,8 @@
 .svg-container svg{
     width: 40%;
 }
+
+.added-images{
+    padding: 40px;
+    width: 300px;
+}
