@@ -1,5 +1,6 @@
 .about-me{
     min-height: fit-content;
+    padding: 0;
 }
 .about-me p {
     text-align: left;
