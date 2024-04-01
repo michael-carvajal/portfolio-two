@@ -44,7 +44,7 @@ export const experiencesData = [
   },
   {
     title: "Lead Software Engineer - Mioym Equities",
-      location: "White Plains, NY",
+    location: "White Plains, NY",
     description:
       "I developed and maintained an internal data scraping tool using Puppeteer and third-party APIs to extract property insights and house value estimates for employees. This resulted in a 30% increase in lead generation efficiency. I also managed multiple AWS servers, utilized PostgreSQL on RDS, and optimized data storage and accessibility via S3 buckets, reducing data retrieval time by 15%.",
     icon: React.createElement(FaReact),
@@ -93,23 +93,28 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
   "React",
+  "Redux",
   "Next.js",
   "Node.js",
+  "PostgreSQL",
+  "Amazon Web Services",
+  "OAuth",
+  "Bash",
+  "Flutter",
+  "Web Development",
+  "Mobile",
+
+
   "Git",
   "Tailwind",
-  "Prisma",
+  "HTML",
+  "CSS",
   "MongoDB",
-  "Redux",
   "GraphQL",
   "Apollo",
   "Express",
-  "PostgreSQL",
   "Python",
-  "Django",
-  "Framer Motion",
 ] as const;
