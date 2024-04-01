@@ -35,28 +35,36 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated App Academy",
+    location: "Remote",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I honed my skills in creating full-stack web applications using React, Express, PostgreSQL, and Node.JS",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Lead Software Engineer - Mioym Equities",
+      location: "White Plains, NY",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I developed and maintained an internal data scraping tool using Puppeteer and third-party APIs to extract property insights and house value estimates for employees. This resulted in a 30% increase in lead generation efficiency. I also managed multiple AWS servers, utilized PostgreSQL on RDS, and optimized data storage and accessibility via S3 buckets, reducing data retrieval time by 15%.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - 2024",
+  },
+  {
+    title: "Frontend Software Engineer - Ultra Golf Pro",
+    location: "New York, NY",
+    description:
+      "I've utilized Flutter and Python to create an intuitive gulf game tracking application. I integrated Google authentication to streamline user access and reduced app loading time by 25%. Material Design widgets ensure a visually appealing UI, while Flask with PostgreSQL integration facilitates efficient data management",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - present",
+  },
+  {
+    title: "Software Developer - Freelance",
+    location: "New York, NY",
+    description:
+      "I have successfully gained clients and arranged deals for website design projects that cater to a diverse range of clients, including artists, local businesses, and software startups. I use React and Tailwind CSS to create websites that are both visually appealing and user-friendly.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - present",
   },
 ] as const;
 
