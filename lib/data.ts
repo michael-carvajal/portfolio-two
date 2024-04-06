@@ -72,21 +72,21 @@ export const projectsData = [
   {
     title: "Jamify",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "My capsotne project is a clone of Ultimateguitar.com. Users can search up chords for songs, upload audio files, and share reviews.",
     tags: ["React", "Redux", "PostgreSQL", "Tailwind", "Flask", "Python", "AWS", "S3"],
     imageUrl: jamifyScreenshot,
   },
   {
     title: "Foxtrot",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "I co-created this clone of Robinhood.com. Users can add funds into thier digital wallet and buy stocks from public companies.",
     tags: ["React", "Redux", "SQLAlchemy", "Github", "Agile", "Finance"],
     imageUrl: foxTrot,
   },
   {
     title: "Stay BnB",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "A clone of Airbnb. This Project harnesses the power of the PERN stack to dynamically disaply data of locations users can book.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: stayBnb,
   },
