@@ -19,31 +19,10 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating the prestigous bootcamp{" "}
-        <span className="font-medium">App Academy</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
+    I am a full-stack web developer, trained at <span className="font-medium">App Academy</span>, and I have a passion for solving problems. I excel in using <span className="font-medium">React, Next.js, Node.js,</span> and <span className="font-medium">MongoDB,</span> and I am always eager to learn and explore new technologies such as <span className="font-medium">TypeScript, PostgreSQL,</span> and <span className="font-medium">React Native.</span> When I am not coding, I enjoy playing my guitar with friends. I am actively seeking a <span className="font-medium">full-time</span> position in software development.
+</p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-      </p>
+
     </motion.section>
   );
 }
