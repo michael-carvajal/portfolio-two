@@ -75,6 +75,7 @@ export const projectsData = [
       "My capsotne project is a clone of Ultimateguitar.com. Users can search up chords for songs, upload audio files, and share reviews.",
     tags: ["React", "Redux", "PostgreSQL", "Tailwind", "Flask", "Python", "AWS", "S3"],
     imageUrl: jamifyScreenshot,
+    url : "https://jamify-dhs9.onrender.com" 
   },
   {
     title: "Foxtrot",
@@ -82,6 +83,7 @@ export const projectsData = [
       "I co-created this clone of Robinhood.com. Users can add funds into thier digital wallet and buy stocks from public companies.",
     tags: ["React", "Redux", "SQLAlchemy", "Github", "Agile", "Finance"],
     imageUrl: foxTrot,
+    url: "https://foxtrot.onrender.com/"
   },
   {
     title: "Stay BnB",
@@ -89,6 +91,7 @@ export const projectsData = [
       "A clone of Airbnb. This Project harnesses the power of the PERN stack to dynamically disaply data of locations users can book.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: stayBnb,
+    url: "https://staybnb-17az.onrender.com"
   },
 ] as const;
 
