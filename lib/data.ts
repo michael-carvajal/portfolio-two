@@ -1,5 +1,5 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
+import { CgWorkAlt, CgUser } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import jamifyScreenshot from "@/public/jamify-screenshot.png";
@@ -56,15 +56,23 @@ export const experiencesData = [
     description:
       "I've utilized Flutter and Python to create an intuitive gulf game tracking application. I integrated Google authentication to streamline user access and reduced app loading time by 25%. Material Design widgets ensure a visually appealing UI, while Flask with PostgreSQL integration facilitates efficient data management",
     icon: React.createElement(CgWorkAlt),
-    date: "2024 - present",
+    date: "2024",
   },
   {
     title: "Software Developer - Freelance",
     location: "New York, NY",
     description:
       "I have successfully gained clients and arranged deals for website design projects that cater to a diverse range of clients, including artists, local businesses, and software startups. I use React and Tailwind CSS to create websites that are both visually appealing and user-friendly.",
+    icon: React.createElement(CgUser),
+    date: "2023 - present",
+  },
+  {
+    title: "Software Developer - Mavis Tire",
+    location: "White Plains, NY",
+    description:
+      "I led the development of the Hybrid Order System using React.js, Node.js, .NET, and Microsoft SQL Server, which improved tire order processing times by 80%. By automating data extraction across multiple vendor websites with Playwright, I enhanced web scraping efficiency by 40%. Additionally, I reduced employee cognitive load by 50% and increased daily sourcing efficiency from 40 to 100 through automation. My implementation of an intuitive system design led to a 99% reduction in human errors, significantly optimizing the workflow.",
     icon: React.createElement(CgWorkAlt),
-    date: "2024 - present",
+    date: "2023 - 2024",
   },
 ] as const;
 
@@ -73,9 +81,18 @@ export const projectsData = [
     title: "Jamify",
     description:
       "My capsotne project is a clone of Ultimateguitar.com. Users can search up chords for songs, upload audio files, and share reviews.",
-    tags: ["React", "Redux", "PostgreSQL", "Tailwind", "Flask", "Python", "AWS", "S3"],
+    tags: [
+      "React",
+      "Redux",
+      "PostgreSQL",
+      "Tailwind",
+      "Flask",
+      "Python",
+      "AWS",
+      "S3",
+    ],
     imageUrl: jamifyScreenshot,
-    url : "https://jamify-dhs9.onrender.com" 
+    url: "https://jamify-dhs9.onrender.com",
   },
   {
     title: "Foxtrot",
@@ -83,7 +100,7 @@ export const projectsData = [
       "I co-created this clone of Robinhood.com. Users can add funds into thier digital wallet and buy stocks from public companies.",
     tags: ["React", "Redux", "SQLAlchemy", "Github", "Agile", "Finance"],
     imageUrl: foxTrot,
-    url: "https://foxtrot.onrender.com/"
+    url: "https://foxtrot.onrender.com/",
   },
   {
     title: "Stay BnB",
@@ -91,7 +108,7 @@ export const projectsData = [
       "A clone of Airbnb. This Project harnesses the power of the PERN stack to dynamically disaply data of locations users can book.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: stayBnb,
-    url: "https://staybnb-17az.onrender.com"
+    url: "https://staybnb-17az.onrender.com",
   },
 ] as const;
 
@@ -109,7 +126,6 @@ export const skillsData = [
   "Flutter",
   "Web Development",
   "Mobile",
-
 
   "Git",
   "Tailwind",
