@@ -3,6 +3,7 @@ import { CgWorkAlt, CgUser } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import jamifyScreenshot from "@/public/jamify-screenshot.png";
+import smokehouseScreenshot from "@/public/smokehouse-screenshot.png";
 import foxTrot from "@/public/foxtrot-screenshot.png";
 import stayBnb from "@/public/staybnb-screenshot.png";
 
@@ -101,6 +102,21 @@ export const projectsData = [
     tags: ["React", "Redux", "SQLAlchemy", "Github", "Agile", "Finance"],
     imageUrl: foxTrot,
     url: "https://foxtrot.onrender.com/",
+  },
+  {
+    title: "Mt. Kisco Smokehouse",
+    description:
+      "Developed a website for a local smokehouse using Next.js, featuring a comprehensive CMS that allows the owners to easily customize and manage content.",
+    tags: [
+      "React",
+      "NextJS",
+      "PostgreSQL",
+      "Tailwind",
+      "AWS",
+      "E-Commerce",
+    ],
+    imageUrl: smokehouseScreenshot,
+    url: "https://jamify-dhs9.onrender.com",
   },
   {
     title: "Stay BnB",
