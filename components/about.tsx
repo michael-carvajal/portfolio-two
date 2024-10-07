@@ -19,8 +19,15 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-    I am a full-stack web developer, trained at <span className="font-medium">App Academy</span>, and I have a passion for solving problems. I excel in using <span className="font-medium">React, Next.js, Node.js,</span> and <span className="font-medium">MongoDB,</span> and I am always eager to learn and explore new technologies such as <span className="font-medium">TypeScript, PostgreSQL,</span> and <span className="font-medium">React Native.</span> When I am not coding, I enjoy playing my guitar with friends. I am actively seeking a <span className="font-medium">full-time</span> position in software development.
-</p>
+        <span className="font-bold">Hello, I'm Michael.</span> I'm a{" "}
+        <span className="font-bold">full-stack developer</span> with a proven track record of dominating the fields I've worked in. With experience at{" "}
+        <span className="font-bold">Mavis Tire, Ultra Golf Pro,</span> and{" "}
+        <span className="font-bold">Mioym Equities,</span> I have consistently delivered innovative solutions that improve efficiency and reduce costs. I specialize in{" "}
+        <span className="font-bold">React, Next.js, Node.js,</span> and{" "}
+        <span className="font-bold">MongoDB,</span> and I’ve mastered technologies such as{" "}
+        <span className="font-bold">TypeScript, PostgreSQL, and React Native.</span> Whether it's leading the development of complex systems or enhancing performance across web and mobile platforms, I am always ready to push boundaries.
+
+      </p>
 
 
     </motion.section>
