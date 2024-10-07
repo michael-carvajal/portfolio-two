@@ -116,7 +116,7 @@ export const projectsData = [
       "E-Commerce",
     ],
     imageUrl: smokehouseScreenshot,
-    url: "https://jamify-dhs9.onrender.com",
+    url: "https://mtk-smokehouse.vercel.app/",
   },
   {
     title: "Stay BnB",
